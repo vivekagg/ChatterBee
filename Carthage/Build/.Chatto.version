@@ -1,0 +1,13 @@
+{
+  "commitish" : "3.3.1",
+  "iOS" : [
+    {
+      "name" : "Chatto",
+      "hash" : "498a08777ede96ddb7708b906245f8d6c4b7f8327d8dc97fb97b0e20f9dfdad8"
+    },
+    {
+      "name" : "ChattoAdditions",
+      "hash" : "15eef73c1a9960ce4433e8aecbe31a4f82e7a2856123c9b8a4ea26eb0df57cdd"
+    }
+  ]
+}
