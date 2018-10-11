@@ -67,9 +67,8 @@
 		84308200216E6AAB005611C2 /* ChatterBee */ = {
 			isa = PBXGroup;
 			children = (
-				84308201216E6AAB005611C2 /* AppDelegate.swift */,
-				84308203216E6AAB005611C2 /* ViewController.swift */,
-				84308205216E6AAB005611C2 /* Main.storyboard */,
+				84308225216FC9E0005611C2 /* Common */,
+				84308223216FC9AD005611C2 /* Modules */,
 				84308208216E6AAC005611C2 /* Assets.xcassets */,
 				8430820A216E6AAC005611C2 /* LaunchScreen.storyboard */,
 				8430820D216E6AAC005611C2 /* Info.plist */,
@@ -86,6 +85,31 @@
 				84308215216E6FEE005611C2 /* ChattoAdditions.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84308223216FC9AD005611C2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84308224216FC9BB005611C2 /* ChatterBeeSeach */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84308224216FC9BB005611C2 /* ChatterBeeSeach */ = {
+			isa = PBXGroup;
+			children = (
+				84308205216E6AAB005611C2 /* Main.storyboard */,
+				84308203216E6AAB005611C2 /* ViewController.swift */,
+			);
+			path = ChatterBeeSeach;
+			sourceTree = "<group>";
+		};
+		84308225216FC9E0005611C2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84308201216E6AAB005611C2 /* AppDelegate.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +191,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Chatto.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ChattoAdditions.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/newInputFile",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
 			);
 			outputFileListPaths = (
 			);
