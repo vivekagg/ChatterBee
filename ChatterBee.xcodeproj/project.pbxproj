@@ -16,6 +16,9 @@
 		84308217216E6FEE005611C2 /* ChattoAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84308215216E6FEE005611C2 /* ChattoAdditions.framework */; };
 		8430821A216E73A8005611C2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84308219216E73A8005611C2 /* Alamofire.framework */; };
 		8430821C216E7668005611C2 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8430821B216E7668005611C2 /* AlamofireImage.framework */; };
+		84308227216FCE25005611C2 /* PresenterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84308226216FCE25005611C2 /* PresenterSearch.swift */; };
+		8430822A21724614005611C2 /* DuckDuckGoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430822921724614005611C2 /* DuckDuckGoSearch.swift */; };
+		8430822D21725AAD005611C2 /* SearchParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430822C21725AAD005611C2 /* SearchParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		84308215216E6FEE005611C2 /* ChattoAdditions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChattoAdditions.framework; path = Carthage/Build/iOS/ChattoAdditions.framework; sourceTree = "<group>"; };
 		84308219216E73A8005611C2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		8430821B216E7668005611C2 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		84308226216FCE25005611C2 /* PresenterSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterSearch.swift; sourceTree = "<group>"; };
+		8430822921724614005611C2 /* DuckDuckGoSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoSearch.swift; sourceTree = "<group>"; };
+		8430822C21725AAD005611C2 /* SearchParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,8 @@
 		84308200216E6AAB005611C2 /* ChatterBee */ = {
 			isa = PBXGroup;
 			children = (
+				8430822B21725A92005611C2 /* Entity */,
+				8430822821724606005611C2 /* Backend */,
 				84308225216FC9E0005611C2 /* Common */,
 				84308223216FC9AD005611C2 /* Modules */,
 				84308208216E6AAC005611C2 /* Assets.xcassets */,
@@ -100,6 +108,7 @@
 			children = (
 				84308205216E6AAB005611C2 /* Main.storyboard */,
 				84308203216E6AAB005611C2 /* ViewController.swift */,
+				84308226216FCE25005611C2 /* PresenterSearch.swift */,
 			);
 			path = ChatterBeeSeach;
 			sourceTree = "<group>";
@@ -110,6 +119,22 @@
 				84308201216E6AAB005611C2 /* AppDelegate.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		8430822821724606005611C2 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				8430822921724614005611C2 /* DuckDuckGoSearch.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		8430822B21725A92005611C2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8430822C21725AAD005611C2 /* SearchParser.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8430822D21725AAD005611C2 /* SearchParser.swift in Sources */,
 				84308204216E6AAB005611C2 /* ViewController.swift in Sources */,
+				8430822A21724614005611C2 /* DuckDuckGoSearch.swift in Sources */,
+				84308227216FCE25005611C2 /* PresenterSearch.swift in Sources */,
 				84308202216E6AAB005611C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

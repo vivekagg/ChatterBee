@@ -12,6 +12,7 @@ import Alamofire
 class ViewController : UIViewController,UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource  {
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
+    var presenter = PresenterSearch()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,9 +21,7 @@ class ViewController : UIViewController,UISearchBarDelegate,UITableViewDelegate,
         tableView.dataSource = self
 }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
-        if (self.searchBar.text != nil){
-            print(self.searchBar.text!)
-        }
+       self.presenter.lookupStringOnDuckDuckGo(searchBar.text)
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
