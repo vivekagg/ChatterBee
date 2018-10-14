@@ -21,7 +21,7 @@ class ViewController : UIViewController,UISearchBarDelegate,UITableViewDelegate,
         tableView.dataSource = self
 }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
-       self.presenter.lookupStringOnDuckDuckGo(searchBar.text)
+       self.presenter.askInteractorForJsonData(searchBar.text)
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

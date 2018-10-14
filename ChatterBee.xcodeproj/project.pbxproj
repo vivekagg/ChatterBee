@@ -19,6 +19,8 @@
 		84308227216FCE25005611C2 /* PresenterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84308226216FCE25005611C2 /* PresenterSearch.swift */; };
 		8430822A21724614005611C2 /* DuckDuckGoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430822921724614005611C2 /* DuckDuckGoSearch.swift */; };
 		8430822D21725AAD005611C2 /* SearchParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430822C21725AAD005611C2 /* SearchParser.swift */; };
+		8430822F217330D9005611C2 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430822E217330D9005611C2 /* SearchInteractor.swift */; };
+		8430823121733219005611C2 /* RouterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430823021733219005611C2 /* RouterSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		84308226216FCE25005611C2 /* PresenterSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterSearch.swift; sourceTree = "<group>"; };
 		8430822921724614005611C2 /* DuckDuckGoSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoSearch.swift; sourceTree = "<group>"; };
 		8430822C21725AAD005611C2 /* SearchParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParser.swift; sourceTree = "<group>"; };
+		8430822E217330D9005611C2 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		8430823021733219005611C2 /* RouterSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				84308205216E6AAB005611C2 /* Main.storyboard */,
 				84308203216E6AAB005611C2 /* ViewController.swift */,
 				84308226216FCE25005611C2 /* PresenterSearch.swift */,
+				8430822E217330D9005611C2 /* SearchInteractor.swift */,
+				8430823021733219005611C2 /* RouterSearch.swift */,
 			);
 			path = ChatterBeeSeach;
 			sourceTree = "<group>";
@@ -233,10 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8430822F217330D9005611C2 /* SearchInteractor.swift in Sources */,
 				8430822D21725AAD005611C2 /* SearchParser.swift in Sources */,
 				84308204216E6AAB005611C2 /* ViewController.swift in Sources */,
 				8430822A21724614005611C2 /* DuckDuckGoSearch.swift in Sources */,
 				84308227216FCE25005611C2 /* PresenterSearch.swift in Sources */,
+				8430823121733219005611C2 /* RouterSearch.swift in Sources */,
 				84308202216E6AAB005611C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
