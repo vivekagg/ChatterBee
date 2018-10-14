@@ -12,6 +12,14 @@ class PresenterSearch{
     var interactor = searchInteractor()
     var router = routerSearch()
     func askInteractorForJsonData(_ urlString:String?){
-        interactor.lookupStringOnDuckDuckGo(urlString)
+        var definition:Definition?
+        definition = interactor.lookupStringOnDuckDuckGo(urlString)
+        if definition != nil {
+            print("description is \(definition!.description)")
+            print("image url is \(definition!.imageURL as Any)")
+            print("title is \(definition!.title)")
+            print("result type is \(definition!.resultType)")
+            
+        }
     }
 }

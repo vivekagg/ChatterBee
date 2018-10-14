@@ -123,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				84308201216E6AAB005611C2 /* AppDelegate.swift */,
+				8430822C21725AAD005611C2 /* SearchParser.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -138,7 +139,6 @@
 		8430822B21725A92005611C2 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				8430822C21725AAD005611C2 /* SearchParser.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";

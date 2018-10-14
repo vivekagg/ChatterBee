@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Modules/ChatterBeeSeach/ViewController.swift"
-            timestampString = "561197775.822697"
+            timestampString = "561231454.202258"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561148151.217568"
+            timestampString = "561231454.202389"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561148151.217647"
+            timestampString = "561231454.202504"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -58,55 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561148151.217688"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "performSearch(for:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ChatterBee.DuckDuckGoSearch.performSearch(for: Swift.String, completion: (Swift.Optional&lt;ChatterBee.Definition&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "ChatterBee"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/admin/Desktop/xcode/ChatterBee/ChatterBee/Backend/DuckDuckGoSearch.swift"
-                  timestampString = "561197776.413056"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "644">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data&gt;) -&gt; () in ChatterBee.DuckDuckGoSearch.performSearch(for: Swift.String, completion: (Swift.Optional&lt;ChatterBee.Definition&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "ChatterBee"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/admin/Desktop/xcode/ChatterBee/ChatterBee/Backend/DuckDuckGoSearch.swift"
-                  timestampString = "561197776.416796"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "63">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561148151.217769"
+            timestampString = "561231454.202587"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -122,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561148151.217811"
+            timestampString = "561231454.202662"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -138,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561148151.2178611"
+            timestampString = "561231454.202736"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -154,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561148151.2179101"
+            timestampString = "561231454.20281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -170,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561148151.21795"
+            timestampString = "561231454.2028821"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -186,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561197808.189697"
+            timestampString = "561231454.202955"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -202,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561197812.849475"
+            timestampString = "561231454.203033"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -218,12 +170,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatterBee/Backend/DuckDuckGoSearch.swift"
-            timestampString = "561197815.805714"
+            timestampString = "561231454.203104"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
             landmarkName = "performSearch(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatterBee/Modules/ChatterBeeSeach/ViewController.swift"
+            timestampString = "561231454.203185"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatterBee/Modules/ChatterBeeSeach/PresenterSearch.swift"
+            timestampString = "561231558.5148391"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "askInteractorForJsonData(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
