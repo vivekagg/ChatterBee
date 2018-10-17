@@ -21,7 +21,8 @@ class ViewController : UIViewController  {
 //MARK:- UISEARCHBARDELEGATE
     extension  ViewController: UISearchBarDelegate  {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
-       self.presenter.askInteractorForJsonData(searchBar.text)
+     self.presenter.loadDefinition(searchBar.text)
+        self.tableView.reloadData()
     }
     }
     
