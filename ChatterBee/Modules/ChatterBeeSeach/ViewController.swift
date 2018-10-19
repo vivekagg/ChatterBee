@@ -22,7 +22,7 @@ class ViewController : UIViewController  {
     extension  ViewController: UISearchBarDelegate  {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
      self.presenter.loadDefinition(searchBar.text)
-        self.tableView.reloadData()
+     self.tableView.reloadData()
     }
     }
     
@@ -39,7 +39,9 @@ class ViewController : UIViewController  {
         return 3
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath)
+        var cell = UITableViewCell()
+        cell = presenter.presentableReturnCellTypeWithData()
+        //let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath)
         return cell
     }
 
