@@ -22,16 +22,35 @@ class PresenterSearch{
         }
     
     
-    func presentableReturnCellTypeWithData() -> UITableViewCell {
-        if self.interactor.definition != nil{
-            let cell = UITableViewCell()
+    func presentableReturnCellTypeWithData(cell:UITableViewCell) -> UITableViewCell {
+        if (self.interactor.definition != nil){
+            if self.interactor.definition?.imageURL != nil
+            {
+                cell.imageView?.imageFromUrl(urlString: "https://robohash.org/123.png")
+                return cell
+            }
+        }
             return cell
-        }
-        else
-        {
-            let cell2 = UITableViewCell()
-            return cell2
-        }
+
     }
+    
     }
 
+class imageTableCellView : UITableViewCell{
+    
+    @IBOutlet weak var ug: UIImageView!
+    
+}
+extension UIImageView {
+    public func imageFromUrl(urlString: String) {
+        if let url = URL(string: urlString) {
+            let request = URLRequest(url: url)
+            NSURLConnection.sendAsynchronousRequest(request, queue: OperationQueue.main) {
+                (response: URLResponse?, data: Data?, error: Error?) -> Void in
+                if let imageData = data as Data? {
+                    self.image = UIImage(data: imageData)
+                }
+            }
+        }
+    }
+}

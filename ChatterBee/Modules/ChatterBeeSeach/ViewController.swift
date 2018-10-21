@@ -39,9 +39,8 @@ class ViewController : UIViewController  {
         return 3
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = UITableViewCell()
-        cell = presenter.presentableReturnCellTypeWithData()
-        //let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath)
+        var cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath)
+        cell = self.presenter.presentableReturnCellTypeWithData(cell:cell)
         return cell
     }
 
